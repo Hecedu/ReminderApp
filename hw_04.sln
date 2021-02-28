@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw_04.Android", "hw_04\hw_04.Android\hw_04.Android.csproj", "{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hw_04", "hw_04\hw_04\hw_04.csproj", "{825193FC-E847-49CF-B677-AEE67805BEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw_04.Tests", "hw_04.Tests\hw_04.Tests.csproj", "{C161D81F-66A0-4660-9EC3-01FF414E3B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A21C640-3504-4627-9D84-F0E0CF1DDDDA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825193FC-E847-49CF-B677-AEE67805BEDD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C161D81F-66A0-4660-9EC3-01FF414E3B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C161D81F-66A0-4660-9EC3-01FF414E3B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C161D81F-66A0-4660-9EC3-01FF414E3B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C161D81F-66A0-4660-9EC3-01FF414E3B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BA7D11B-EAF2-49CA-A665-A524E7F4A84C}
+	EndGlobalSection
+EndGlobal

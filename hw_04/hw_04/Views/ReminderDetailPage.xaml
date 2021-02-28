@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hw_04.Views.ReminderDetailPage"
+             Title="{Binding Reminder.Title}">
+
+    <StackLayout Spacing="10" Padding="10">
+        <Label Text="{Binding Reminder.Title}" FontSize="Large" FontAttributes="Bold" TextColor="Black" />
+        <Label Text="{Binding Reminder.Date}" FontSize="Small" TextColor="Gray" />
+        <Label Text="{Binding Reminder.Content}" FontSize="Medium" TextColor="Black" />
+
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="DeleteButton" Text="Delete" Command="{Binding DeleteCommand}" Clicked="Delete_Clicked" HorizontalOptions="FillAndExpand"></Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
